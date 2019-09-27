@@ -1,0 +1,119 @@
+
+a{ 
+  text-decoration: none; /* Отменяем подчеркивание у ссылки */
+}
+header {
+  position: relative;
+  width: auto;
+  height: 30px;
+}
+
+ul.hr {
+  margin-top: 0px; /* Обнуляем значение отступов */
+  padding: 0px; /* Значение полей */
+}
+
+ul.hr li {
+  display: inline; /* Отображать как строчный элемент */
+  margin-right: 5px; /* Отступ слева */
+  padding: 20px; /* Поля вокруг текста */
+}
+
+.App {
+  position: relative;
+  width: 100%;
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  background-color: #D0F9DE;
+}
+
+.panel {
+  position: absolute;
+  left: 0;
+  width: 120px;
+  height: 25px;
+  background: #fff;
+  border: 1px solid #cecece;
+  border-radius: 5px;
+  }
+
+.logo {
+  position: absolute;
+  max-width: 150;
+  max-height: 15;
+  min-width: auto;
+  min-height: auto;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.fixheader {
+  position: absolute;
+  width: 75px;
+  left: 130px;
+  text-align: center;
+  border: 1px solid #cecece;
+  border-radius: 5px;
+  height: 25px;
+  background-color: #BFE1DA;
+}
+
+.login {
+  position: absolute;
+  width: 75px;
+  right: 1px;
+  text-align: center;
+  border: 1px solid #cecece;
+  border-radius: 5px;
+  height: 25px;
+  background-color: #BFE1DA;
+  z-index: 4;
+}
+
+.office {
+  position: absolute;
+  width: 75px;
+  right: 80px;
+  text-align: center;
+  border: 1px solid #cecece;
+  border-radius: 5px;
+  height: 25px;
+  background-color: #BFE1DA;
+}
+
+.entering {
+  position: absolute;
+  width: 165px;
+  right: 1px;
+  height: 25px;
+  background-color: #D0F9DE;
+}
+
+
+.footer {
+  height: 50px;
+  bottom: 0;
+}
+
+.about {
+  overflow: hidden;
+  width: 100%;
+  bottom: 25px;
+  text-align: center;
+  color: #3b6484;
+  height: 30px;
+  background-color: #BFE1DA;
+}
+
+.bottom {
+  width: 100%;
+  right: 0px;
+  bottom: 0;
+  text-align: right;
+  height: 25px;
+  background-color: #D0F9DE;
+}
